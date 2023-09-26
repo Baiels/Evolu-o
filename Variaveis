@@ -1,0 +1,77 @@
+using System;
+
+namespace Course
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10;
+            Console.WriteLine(a);
+            a += 2;
+            Console.WriteLine(a);
+            a *= 3;
+            Console.WriteLine(a);
+
+            string s = "ABC";
+            Console.WriteLine(s);
+
+            s += "DEF";
+            Console.WriteLine(s);
+
+            int a = 10;
+            a++;
+            Console.WriteLine(a);
+            int b = 10;
+            b--;
+            Console.WriteLine(b);
+
+            int c = 10;
+            int d = c++;
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            d--;
+            d = ++c;
+            Console.WriteLine(d);
+
+
+        }
+    }
+}
+
+/*namespace Course
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float x = 4.5f;
+            double y = x;
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+
+
+
+            double a;
+            float b;
+            //Para mudar a variavel, basta colocar na frente entre parenteses a mudança
+            a = 5.1;
+            b = (float)a;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+
+
+
+            double c = 5.1;
+            int d = (int)c;
+            Console.WriteLine(c);
+            Console.WriteLine(d);   
+
+            int f = 5;
+            int g = 2;
+            //um double dividindo um inteiro da um double
+            double resultado = (double)f / g;
+            Console.WriteLine(resultado);
+        }
+    }
+}
