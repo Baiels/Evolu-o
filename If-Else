@@ -1,0 +1,47 @@
+using System;
+
+/*
+namespace Course
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Entre com um número inteiro: ");
+            int num1 = int.Parse(Console.ReadLine());
+
+            if (num1 % 2 == 0)
+            {
+                Console.WriteLine("É Par!");
+            }
+            else
+            {
+                Console.WriteLine("Ímpar");
+            }
+        }
+    }
+}
+*/
+/*
+namespace Course
+{
+    class Program
+    {
+        static void Main(string[] args) 
+        {
+            Console.WriteLine("Qual hora atual?");
+            int a = int.Parse(Console.ReadLine());
+
+            if (a < 12)
+            {
+                Console.WriteLine("Bom dia");
+            } else if (a >= 12 && a < 18)
+            {
+                Console.WriteLine("Boa tarde");
+            }
+            else { Console.WriteLine("Boa noite"); 
+            }
+        }
+    }
+}
+*/
