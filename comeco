@@ -1,4 +1,6 @@
-namespace Course
+using System;
+
+/*namespace Sbyte
 {
    class Program
     {
@@ -10,11 +12,11 @@ namespace Course
     }
 }*/
 
-//byte (nao aceita negativo) 
-//Overflow(quando ele ultrapassa o valor maximo, ele vai para o minimo)
+//byte (não aceita negativo) 
+//Overflow(quando ele ultrapassa o valor máximo, ele vai para o mínimo)
 
 
-/*namespace Course
+namespace Anotacao
 {
     class Program
     {
@@ -29,7 +31,7 @@ namespace Course
             char letra = '\u0041';
             float n5 = 4.5f;
             double n6 = 4.5;
-            string palavra = "Medo";
+            string palavra = "Palavra";
             object obj1 = "Lado";
             object obj2 = 4.5f;
             Console.WriteLine(n1);
@@ -49,4 +51,4 @@ namespace Course
 
         }
     }
-}*/
+}
