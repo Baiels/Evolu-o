@@ -14,4 +14,4 @@ While - Entendendo como funciona a estrutura While
 Exercicios 3 - Usando While + estruturas condicionais para resolver problemas
 For - Entendendo como funciona estrutura for
 POO- Primeira classe e método criados
-Exericios POO 1 a 6 - Resolvendo questões criando classes e métodos e usando
+Exericios POO 1 a 6 - Resolvendo questões criando classes e métodos.
