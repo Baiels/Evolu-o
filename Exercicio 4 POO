@@ -1,0 +1,52 @@
+using System;
+using System.Globalization;
+
+//Fazer um programa para ler os valores da largura e altura 
+//de um retângulo. Em seguida, mostrar na tela o valor de 
+//sua área, perímetro e diagonal. 
+
+namespace Course
+{
+    internal class Retangulo
+    {
+        public double Altura;
+        public double Largura;
+
+        public double CalculoArea()
+        {
+            return Altura * Largura;
+        }
+        public double CalculoPerimetro()
+        {
+            return (2 * Largura) + (2 * Altura); 
+        }
+        public double CalculoDiagonal()
+        {
+            return Math.Sqrt(Largura * Largura + Altura * Altura);
+        }
+        public override string ToString()
+        {
+            return "ÁREA = " + CalculoArea().ToString("F2", CultureInfo.InvariantCulture) + "  PERÍMETRO = " + CalculoPerimetro().ToString("F2", CultureInfo.InvariantCulture) + "  DIAGONAL = " + CalculoDiagonal().ToString("F2", CultureInfo.InvariantCulture);
+        }
+    }
+}
+
+
+namespace Ex4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Retangulo retangulo = new Retangulo();
+
+            Console.WriteLine("Entre com altura do retângulo: ");
+            retangulo.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("Entre com a largura do retângulo: ");
+            retangulo.Largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine();
+            Console.WriteLine(retangulo);
+        }
+    }
+}
